@@ -9,11 +9,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
  ng version<br /> /*para ver aversão do angular instalada*/
  ng new filmes<br />
  cd filmes<br /> /*entrar ma pasta filmes e executar o commando a baixo*/
- ng serve ou ng s -o <br />
+ <br />ng serve ou ng s -o <br />
 
 ## Configurar o arquivo DB.json ou Filmes.json
 
 A pasta dados está localizada na raiz do projeto, e dentro o arquivo .JSON com os Filmes nomeado como db.json, ainda dentro da pasta dados abra o git bash e execute os comandos abaixo:<br /> 
 
 npm install -g json-server <br />  /*Servidor JSON é um módulo de nó que você pode usar para criar serviços JSON REST de demonstração em poucos minutos*/
-json-server --watch db.json <br /> /*para iniciar o serviço*/
+<br />json-server --watch db.json <br /> /*para iniciar o serviço*/
