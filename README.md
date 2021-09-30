@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Executar os comandos abaixo:
 
- npm install
+ npm install<br />
  npm install -g @angular/cli@10.1.6 <br /> 
  ng version<br /> /*para ver aversão do angular instalada*/
  ng new filmes<br />
