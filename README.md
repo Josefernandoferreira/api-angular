@@ -2,21 +2,23 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Instruções para instalação e execução do projeto em Angular - FILMES:
 
-## Executar os comandos abaixo:
+## 1 - Executar os comandos abaixo:
 
  npm install<br />
- npm install -g @angular/cli@10.1.6 <br /> 
- /*para ver aversão do angular instalada*/
- ng version<br />
- <br />ng new filmes<br />
- /*entrar ma pasta filmes e executar o commando a baixo*/
- cd filmes<br /> 
+ npm install -g @angular/cli@10.1.6 <br /> <br />
+ /*para ver a versão do angular instalada*/
+ <br />ng version<br />
+
+ /*entrar na pasta filmes e executar o commando abaixo*/
+ /*para inicior o serviço*/
  <br />ng serve ou ng s -o <br />
 
-## Configurar o arquivo DB.json ou Filmes.json
+## 2 - Configurar o Servidor JSON (db.json - FILMES)
 
-A pasta dados está localizada na raiz do projeto, e dentro o arquivo .JSON com os Filmes nomeado como db.json, ainda dentro da pasta dados abra o git bash e execute os comandos abaixo:<br /> 
+Abra a pasta dados que está localizada na raiz do projeto, dentro encontra-se o arquivo db.json (FILMES), ainda neste diretório abra o terminal ou Git Bash e execute os comandos abaixo para a aplicação acessar o arquivo db.json (FILMES) :<br /> <br /> 
 /*Servidor JSON é um módulo de nó que você pode usar para criar serviços JSON REST de demonstração em poucos minutos*/
 <br />npm install -g json-server <br />  
 /*para iniciar o serviço*/
 <br />json-server --watch db.json <br /> 
+
+<br> pronto, agora é só navegar !! <br />
