@@ -1,27 +1,18 @@
-# Bytebank
+# Instruções para instalação e execução do projeto em Angular:
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
 
-## Development server
+## Executar os comandos abaixo:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ install -g @angular/cli@10.1.6 <br /> 
+ ng version<br />
+ ng new filmes<br />
+ cd filmes<br />
+ ng serve ou ng s -o <br />
 
-## Code scaffolding
+## Configurar o arquivo DB.json ou Filmes.json
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Na pasta dados está localizado o arquivo JSON com os Filmes, você deverá entrar nela e executar os comandos abaixo:<br /> 
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+npm install -g json-server <br />
+json-server --watch db.json <br />
